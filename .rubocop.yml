@@ -1,0 +1,15 @@
+AllCops:
+  TargetRubyVersion: 2.4
+  Exclude:
+      - 'bin/**'
+      - 'vendor/**/*'
+      - 'use_case_flow.gemspec'
+Documentation:
+   Enabled: false
+Metrics/LineLength:
+  Max: 120
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*'
+Metrics/MethodLength:
+  Max: 15
