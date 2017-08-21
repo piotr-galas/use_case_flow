@@ -3,6 +3,7 @@ AllCops:
   Exclude:
       - 'bin/**'
       - 'vendor/**/*'
+      - 'example/*'
       - 'use_case_flow.gemspec'
 Documentation:
    Enabled: false
