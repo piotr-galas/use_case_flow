@@ -36,7 +36,7 @@ Controllers should take care only on things related to http, like `redirect`, `r
  
    ```ruby
    
-    `require use_case_flow` 
+    require "use_case_flow"
    
      class SomeService
        def call # you can use different name of method 
